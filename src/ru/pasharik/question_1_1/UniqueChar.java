@@ -1,8 +1,5 @@
 package ru.pasharik.question_1_1;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by pasharik on 21/11/18.
  *
