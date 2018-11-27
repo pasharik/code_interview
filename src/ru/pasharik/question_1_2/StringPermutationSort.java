@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by pasharik on 27/11/18.
  *
- * Check if one string is permutation of another
+ * Check if one string/array is permutation of another
  * Method 1: sort both strings (log N), and then check if each symbol is the same
  */
 public class StringPermutationSort {
