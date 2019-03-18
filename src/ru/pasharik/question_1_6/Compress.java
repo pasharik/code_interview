@@ -2,7 +2,6 @@ package ru.pasharik.question_1_6;
 
 public class Compress {
     private static String doCompress(String str) {
-        System.out.println(str);
         StringBuilder sb = new StringBuilder();
         char oldChar = str.charAt(0);
         int count = 0;
