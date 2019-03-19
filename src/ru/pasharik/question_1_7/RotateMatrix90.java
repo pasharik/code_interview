@@ -1,5 +1,7 @@
 package ru.pasharik.question_1_7;
 
+import static ru.pasharik.question_1_7.MatrixUtils.printMatrix;
+
 public class RotateMatrix90 {
     private static int[][] rotate90(int[][] a) {
         int n = a.length - 1;
@@ -32,14 +34,5 @@ public class RotateMatrix90 {
         printMatrix(arr);
         System.out.println("Rotating...");
         printMatrix(rotate90(arr));
-    }
-
-    private static void printMatrix(int[][] matr) {
-        for (int i = 0; i < matr.length; i++) {
-            for (int j = 0; j < matr[i].length; j++) {
-                System.out.print(matr[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 }
