@@ -1,4 +1,4 @@
-package ru.pasharik.question_1_9;
+package ru.pasharik.chapter_1_arrays_strings.question_1_9;
 
 public class StringRotation {
     private static boolean isRotation(String str1, String str2) {

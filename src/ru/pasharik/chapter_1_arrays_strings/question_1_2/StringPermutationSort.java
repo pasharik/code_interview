@@ -1,4 +1,4 @@
-package ru.pasharik.question_1_2;
+package ru.pasharik.chapter_1_arrays_strings.question_1_2;
 
 import java.util.Arrays;
 

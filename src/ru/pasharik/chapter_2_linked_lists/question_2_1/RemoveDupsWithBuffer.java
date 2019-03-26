@@ -1,4 +1,4 @@
-package ru.pasharik.question_2_1;
+package ru.pasharik.chapter_2_linked_lists.question_2_1;
 
 import java.util.HashSet;
 import java.util.Set;

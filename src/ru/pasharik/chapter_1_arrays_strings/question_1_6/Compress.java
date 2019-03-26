@@ -1,4 +1,4 @@
-package ru.pasharik.question_1_6;
+package ru.pasharik.chapter_1_arrays_strings.question_1_6;
 
 public class Compress {
     private static String doCompress(String str) {

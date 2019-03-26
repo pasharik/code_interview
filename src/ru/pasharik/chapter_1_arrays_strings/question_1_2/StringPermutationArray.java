@@ -1,6 +1,4 @@
-package ru.pasharik.question_1_2;
-
-import java.util.Arrays;
+package ru.pasharik.chapter_1_arrays_strings.question_1_2;
 
 /**
  * Created by pasharik on 27/11/18.

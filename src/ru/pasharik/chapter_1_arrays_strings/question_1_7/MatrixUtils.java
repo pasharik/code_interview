@@ -1,4 +1,4 @@
-package ru.pasharik.question_1_7;
+package ru.pasharik.chapter_1_arrays_strings.question_1_7;
 
 public class MatrixUtils {
     public static void printMatrix(int[][] matr) {

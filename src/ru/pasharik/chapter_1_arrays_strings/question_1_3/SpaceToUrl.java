@@ -1,4 +1,4 @@
-package ru.pasharik.question_1_3;
+package ru.pasharik.chapter_1_arrays_strings.question_1_3;
 
 /**
  * Created by pasharik on 28/11/18.

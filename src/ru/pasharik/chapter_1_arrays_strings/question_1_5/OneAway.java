@@ -1,4 +1,4 @@
-package ru.pasharik.question_1_5;
+package ru.pasharik.chapter_1_arrays_strings.question_1_5;
 
 public class OneAway {
     public static boolean isOneAway(char[] arr1, char[] arr2) {

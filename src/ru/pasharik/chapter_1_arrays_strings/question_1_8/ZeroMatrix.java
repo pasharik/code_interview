@@ -1,6 +1,6 @@
-package ru.pasharik.question_1_8;
+package ru.pasharik.chapter_1_arrays_strings.question_1_8;
 
-import ru.pasharik.question_1_7.MatrixUtils;
+import ru.pasharik.chapter_1_arrays_strings.question_1_7.MatrixUtils;
 
 import java.util.Arrays;
 

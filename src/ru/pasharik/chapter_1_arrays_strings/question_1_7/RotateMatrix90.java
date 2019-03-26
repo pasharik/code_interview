@@ -1,6 +1,6 @@
-package ru.pasharik.question_1_7;
+package ru.pasharik.chapter_1_arrays_strings.question_1_7;
 
-import static ru.pasharik.question_1_7.MatrixUtils.printMatrix;
+import static ru.pasharik.chapter_1_arrays_strings.question_1_7.MatrixUtils.printMatrix;
 
 public class RotateMatrix90 {
     private static int[][] rotate90(int[][] a) {
