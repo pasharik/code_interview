@@ -8,13 +8,14 @@ public class RemoveDupsWithBuffer {
     private Set<Integer> buf = new HashSet<>();
 
     private void checkDups(Node head) {
-        Node n = head;
+        Node previous = head;
+        Node n = previous.next;
         while (n != null) {
-            buf.add(n.value);
-            Node next = n.next;
-            while (next != null && buf.contains(next.value)) {
-                next = next.next;
-                n.next = next;
+            buf.add(previous.value);
+            if (buf.contains(n.value)) {
+                previous.next = n.next;
+            } else {
+                previous = n;
             }
             n = n.next;
         }
