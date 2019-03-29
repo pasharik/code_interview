@@ -12,12 +12,13 @@ public class RemoveDupsNoBuffer {
     }
 
     private void removeFromList(Node head, int val) {
-        Node n = head;
+        Node previous = head;
+        Node n = previous.next;
         while (n != null) {
-            Node next = n.next;
-            while (next != null && val == next.value) {
-                next = next.next;
-                n.next = next;
+            if (val == n.value) {
+                previous.next = n.next;
+            } else {
+                previous = n;
             }
             n = n.next;
         }
