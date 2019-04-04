@@ -11,7 +11,7 @@ public class FindFromTheEndRecursion {
             return null;
         }
         Integer res = findRecursive(node.next, targetLevel, ind);
-        ind.index = ind.index + 1;
+        ind.index = ind.index + 1; //Pass index between calls
 
         if (ind.index == targetLevel) {
             return node.value;
