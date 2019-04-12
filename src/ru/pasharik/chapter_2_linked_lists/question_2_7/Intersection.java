@@ -21,11 +21,7 @@ public class Intersection {
     }
 
     private Node doOffset(Node n, int offset) {
-        int i = 0;
-        while (i < offset) {
-            n = n.next;
-            i++;
-        }
+        while (offset-- > 0) n = n.next;
         return n;
     }
 
