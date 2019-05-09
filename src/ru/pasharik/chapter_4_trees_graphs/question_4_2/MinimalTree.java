@@ -19,9 +19,12 @@ public class MinimalTree {
         return from + (to - from) / 2;
     }
 
+    public static BinaryNode create(int[] arr) {
+        return new MinimalTree().process(arr, 0, arr.length - 1);
+    }
+
     private void doStart() {
-        int[] arr = new int[]{0, 1, 3, 5, 7, 8, 9, 13, 18, 22};
-        BinaryNode head = process(arr, 0, arr.length - 1);
+        BinaryNode head = create(new int[]{0, 1, 3, 5, 7, 8, 9, 13, 18, 22});
         GraphUtils.printBinaryTree(head);
     }
 

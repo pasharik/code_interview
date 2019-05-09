@@ -4,4 +4,9 @@ public class BinaryNode {
     public int value;
     public BinaryNode left;
     public BinaryNode right;
+
+    @Override
+    public String toString() {
+        return String.valueOf(value);
+    }
 }
