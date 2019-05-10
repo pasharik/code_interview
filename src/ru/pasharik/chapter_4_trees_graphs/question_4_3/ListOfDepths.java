@@ -4,6 +4,7 @@ import ru.pasharik.chapter_4_trees_graphs.question_4_1.BinaryNode;
 import ru.pasharik.chapter_4_trees_graphs.question_4_2.MinimalTree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ListOfDepths {
@@ -12,7 +13,7 @@ public class ListOfDepths {
     private void processLayer(BinaryNode n, int level) {
         if (n == null) return;
         if (list.size() <= level) {
-            list.add(level, new ArrayList<>());
+            list.add(level, new LinkedList<>());
         }
         list.get(level).add(n);
         processLayer(n.left, level + 1);
